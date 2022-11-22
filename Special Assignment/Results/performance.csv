@@ -1,0 +1,54 @@
+,Accuracy,Precision,Recall,F1 Score,Model Name,Model
+XGB GPU,1.0,1.0,1.0,1.0,XGB GPU,"('XGB GPU', XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, gamma=0, gpu_id=0,
+              grow_policy='depthwise', importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_bin=256, max_cat_threshold=64, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=6, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=100,
+              n_jobs=-1, num_parallel_tree=1, objective='multi:softprob',
+              predictor='auto', ...))"
+XGBRF GPU,0.9993612264452252,0.9991397849462366,0.9995793901156678,0.9993561291029647,XGBRF GPU,"('XGBRF GPU', XGBRFClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+                colsample_bylevel=1, colsample_bytree=1,
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=0, gpu_id=0,
+                grow_policy='depthwise', importance_type=None,
+                interaction_constraints='', max_bin=256, max_cat_threshold=64,
+                max_cat_to_onehot=4, max_delta_step=0, max_depth=6,
+                max_leaves=0, min_child_weight=1, missing=nan,
+                monotone_constraints='()', n_estimators=100, n_jobs=-1,
+                num_parallel_tree=100, objective='multi:softprob',
+                predictor='auto', random_state=0, reg_alpha=0, ...))"
+XGB,0.9996806132226126,0.9995698924731183,0.999789029535865,0.999678597866095,XGB,"('XGB', XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, feature_types=None, gamma=0, gpu_id=-1,
+              grow_policy='depthwise', importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_bin=256, max_cat_threshold=64, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=6, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=100,
+              n_jobs=-1, num_parallel_tree=1, objective='multi:softprob',
+              predictor='auto', ...))"
+XGBRF,0.9993612264452252,0.9991397849462366,0.9995793901156678,0.9993561291029647,XGBRF,"('XGBRF', XGBRFClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+                colsample_bylevel=1, colsample_bytree=1,
+                early_stopping_rounds=None, enable_categorical=False,
+                eval_metric=None, feature_types=None, gamma=0, gpu_id=-1,
+                grow_policy='depthwise', importance_type=None,
+                interaction_constraints='', max_bin=256, max_cat_threshold=64,
+                max_cat_to_onehot=4, max_delta_step=0, max_depth=6,
+                max_leaves=0, min_child_weight=1, missing=nan,
+                monotone_constraints='()', n_estimators=100, n_jobs=-1,
+                num_parallel_tree=100, objective='multi:softprob',
+                predictor='auto', random_state=0, reg_alpha=0, ...))"
+Desicion Tree,1.0,1.0,1.0,1.0,Desicion Tree,"('Desicion Tree', DecisionTreeClassifier())"
+AdaBoost,0.4321303098051741,0.3333333333333333,0.26973188832041933,0.28019807815486286,AdaBoost,"('AdaBoost', AdaBoostClassifier())"
+Bagging Classifier,1.0,1.0,1.0,1.0,Bagging Classifier,"('Bagging Classifier', BaggingClassifier())"
+Extra Trees Classifier,1.0,1.0,1.0,1.0,Extra Trees Classifier,"('Extra Trees Classifier', ExtraTreesClassifier())"
+Random Forest,1.0,1.0,1.0,1.0,Random Forest,"('Random Forest', RandomForestClassifier())"
+KNeighbours,0.4682210156499521,0.46895865144282406,0.46843631216297577,0.45854192391089454,KNeighbours,"('KNeighbours', KNeighborsClassifier())"
+SVC,0.10507824976045992,0.09861667733880948,0.02855541134244608,0.03589553837669996,SVC,"('SVC', SVC())"
+Naive Bayes,0.9993612264452252,0.9993798449612403,0.9990338164251208,0.999201855515383,Naive Bayes,"('Naive Bayes', GaussianNB())"
+MLP,0.37016927499201535,0.34234833072705756,0.33685486391215136,0.26755983600706773,MLP,"('MLP', MLPClassifier())"
